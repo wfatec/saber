@@ -1,6 +1,6 @@
 {
   "name": "@saber/spec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint/stylelint/editorconfig",
   "main": "lib/index.js",
   "files": [
@@ -26,9 +26,9 @@
   },
   "homepage": "https://github.com/wfatec/saber/tree/master/packages/saber-spec#readme",
   "peerDependencies": {
-    "typescript": "^3.0.0",
     "eslint": ">=5.0.0",
-    "stylelint": ">=10.0.0"
+    "stylelint": ">=10.0.0",
+    "typescript": "^3.0.0"
   },
   "dependencies": {
     "@commitlint/config-conventional": "^8.1.0",
