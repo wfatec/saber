@@ -6,8 +6,6 @@ module.exports = {
   stylelint: require('./stylelint'),
   commitlint: require('./commitlint'),
   prettier: require('./prettier'),
-  // deprecated, please use tslint
-  eslintTS: require('./tslint'),
 
   deepmerge: require('./deepmerge'),
 };
