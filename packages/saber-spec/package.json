@@ -61,5 +61,6 @@
   "jest": {
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
-  }
+  },
+  "gitHead": "30f1870834447e1200b3dbf243264eb17ab85523"
 }
