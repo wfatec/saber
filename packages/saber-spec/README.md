@@ -1,6 +1,6 @@
 # spec
 
-[![NPM version](https://img.shields.io/npm/v/@saber/spec.svg?style=flat)](https://npmjs.org/package/@saber/spec) [![NPM downloads](http://img.shields.io/npm/dm/@saber/spec.svg?style=flat)](https://npmjs.org/package/@saber/spec)
+[![NPM version](https://img.shields.io/npm/v/saber-spec.svg?style=flat)](https://npmjs.org/package/saber-spec) [![NPM downloads](http://img.shields.io/npm/dm/saber-spec.svg?style=flat)](https://npmjs.org/package/saber-spec)
 
 Easy to use eslint/stylelint/prettier. And spec means specification.
 
@@ -15,7 +15,7 @@ Easy to use eslint/stylelint/prettier. And spec means specification.
 ## Install
 
 ```bash
-$ npm i --save-dev @saber/spec eslint stylelint @commitlint/cli
+$ npm i --save-dev saber-spec eslint stylelint @commitlint/cli
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ $ npm i --save-dev @saber/spec eslint stylelint @commitlint/cli
 Create a `.eslintrc.js`
 
 ```js
-const { eslint } = require('@saber/spec');
+const { eslint } = require('saber-spec');
 
 module.exports = eslint;
 ```
@@ -35,7 +35,7 @@ module.exports = eslint;
 Create a `.eslintrc.js`
 
 ```js
-const { tslint } = require('@saber/spec');
+const { tslint } = require('saber-spec');
 
 module.exports = tslint;
 ```
@@ -45,7 +45,7 @@ module.exports = tslint;
 in `.stylelintrc.js`
 
 ```js
-const { stylelint } = require('@saber/spec');
+const { stylelint } = require('saber-spec');
 
 module.exports = stylelint;
 ```
@@ -55,7 +55,7 @@ module.exports = stylelint;
 in `.prettierrc.js`
 
 ```js
-const { prettier } = require('@saber/spec');
+const { prettier } = require('saber-spec');
 
 module.exports = prettier;
 ```
@@ -65,7 +65,7 @@ module.exports = prettier;
 in `.commitlintrc.js`
 
 ```js
-const { commitlint } = require('@saber/spec');
+const { commitlint } = require('saber-spec');
 
 module.exports = commitlint;
 ```
@@ -75,7 +75,7 @@ module.exports = commitlint;
 ### Custom config
 
 ```js
-const { eslint, deepmerge } = require('@saber/spec');
+const { eslint, deepmerge } = require('saber-spec');
 
 module.exports = deepmerge(eslint, {
   rules: {

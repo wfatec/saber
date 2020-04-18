@@ -1,5 +1,5 @@
 {
-  "name": "@saber/spec",
+  "name": "saber-spec",
   "version": "1.0.3",
   "description": "eslint/stylelint/editorconfig",
   "main": "lib/index.js",
@@ -62,5 +62,5 @@
     "coverageDirectory": "./coverage/",
     "collectCoverage": true
   },
-  "gitHead": "37393af1a54e91ca24fdafdb8ecf6751bbb024b3"
+  "gitHead": "c5af8004adb991e6ed786a20c910f68abb189f0f"
 }
