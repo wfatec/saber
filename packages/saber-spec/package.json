@@ -1,6 +1,6 @@
 {
-  "name": "@ice/spec",
-  "version": "1.0.1",
+  "name": "@saber/spec",
+  "version": "1.0.0",
   "description": "eslint/stylelint/editorconfig",
   "main": "lib/index.js",
   "files": [
@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ice-lab/spec.git"
+    "url": "git+https://github.com/wfatec/saber/tree/master/packages/saber-spec"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ice-lab/spec/issues"
+    "url": "https://github.com/wfatec/saber/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/ice-lab/spec#readme",
+  "homepage": "https://github.com/wfatec/saber/tree/master/packages/saber-spec#readme",
   "peerDependencies": {
     "typescript": "^3.0.0",
     "eslint": ">=5.0.0",
