@@ -57,7 +57,6 @@ if (!subcmd) {
 } else {
   const bin = executable(subcmd);
   if (bin) {
-    console.log(bin);
     wrap(spawn(bin, args, {stdio: 'inherit', customFds: [0, 1, 2]}));
   } else {
     program.help();
@@ -75,13 +74,12 @@ function printHelp() {
   console.log();
   console.log('    init           Init a new dva application in the current folder');
   console.log('    new            Creates a new application');
-  console.log('    generate       Generates new code (short-cut alias: "g")');
   console.log();
   console.log('  All commands can be run with -h (or --help) for more information.')
 }
 
 function executable(subcmd) {
-  var file = join(__dirname, 'dva-' + subcmd);
+  var file = join(__dirname, 'saber-' + subcmd + '.js');
   if (exists(file)) {
     return file;
   }

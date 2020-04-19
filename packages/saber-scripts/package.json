@@ -9,9 +9,11 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c rollup.config.js"
+    "build": "rm -rf lib && babel ./src/ -d ./lib"
   },
-  "bin": "./bin/saber.js",
+  "bin": {
+    "saber": "./bin/saber.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wfatec/saber.git"
@@ -27,11 +29,19 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.8.4",
+    "babel-plugin-add-module-exports": "^1.0.2",
     "rollup": "^1.31.0",
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-terser": "^5.2.0"
   },
-  "gitHead": "ffe0b1d7a6714203130a8b1132acea6985cb5181"
+  "gitHead": "ffe0b1d7a6714203130a8b1132acea6985cb5181",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "empty-dir": "^2.0.0",
+    "left-pad": "^1.3.0",
+    "saber-dev-utils": "^1.0.3",
+    "update-notifier": "^4.1.0"
+  }
 }
