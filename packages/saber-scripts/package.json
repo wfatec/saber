@@ -11,6 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rollup -c rollup.config.js"
   },
+  "bin": "./bin/saber.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wfatec/saber.git"

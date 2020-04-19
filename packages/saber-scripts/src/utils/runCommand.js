@@ -26,4 +26,4 @@ const runCommand = (command, args) => {
   });
 };
 
-export default runCommand;
+module.exports = runCommand;
