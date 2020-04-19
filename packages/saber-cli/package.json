@@ -1,0 +1,31 @@
+{
+    "name": "saber-cli",
+    "version": "0.0.1",
+    "description": "develop utils for react",
+    "main": "index.js",
+    "files": [
+      "lib",
+      "bin"
+    ],
+    "scripts": {
+      "lint": "eslint --cache --ext .ts,.tsx,.js,.jsx ./",
+      "stylelint": "stylelint ./**/*.css",
+      "test": "jest",
+      "coverage": "codecov",
+      "prepublishOnly": "npm run lint && npm run test"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/wfatec/saber.git"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/wfatec/saber/issues"
+    },
+    "publishConfig": {
+      "access": "public"
+    },
+    "homepage": "https://github.com/wfatec/saber",
+    "gitHead": "c5af8004adb991e6ed786a20c910f68abb189f0f"
+  }
+  
