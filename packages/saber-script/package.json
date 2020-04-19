@@ -1,5 +1,5 @@
 {
-  "name": "saber-cli",
+  "name": "saber-script",
   "version": "0.0.3",
   "description": "develop utils for react",
   "main": "index.js",
@@ -19,5 +19,5 @@
     "access": "public"
   },
   "homepage": "https://github.com/wfatec/saber",
-  "gitHead": "8e138f7f13a2b8cecdb20450a38eddab661d281c"
+  "gitHead": "ffe0b1d7a6714203130a8b1132acea6985cb5181"
 }
