@@ -5,10 +5,11 @@
  * @param {string[]} args command line arguments
  * @returns {Promise<void>} promise
  */
+const spawn = require('saber-dev-utils/crossSpawn');
+
 const runCommand = (command, args) => {
-  const cp = require("child_process");
   return new Promise((resolve, reject) => {
-    const executedCommand = cp.spawn(command, args, {
+    const executedCommand = spawn.sync(command, args, {
       stdio: "inherit",
       shell: true,
     });

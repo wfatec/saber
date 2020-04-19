@@ -7,13 +7,6 @@
     "lib",
     "bin"
   ],
-  "scripts": {
-    "lint": "eslint --cache --ext .ts,.tsx,.js,.jsx ./",
-    "stylelint": "stylelint ./**/*.css",
-    "test": "jest",
-    "coverage": "codecov",
-    "prepublishOnly": "npm run lint && npm run test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wfatec/saber.git"
@@ -26,5 +19,5 @@
     "access": "public"
   },
   "homepage": "https://github.com/wfatec/saber",
-  "gitHead": "c5af8004adb991e6ed786a20c910f68abb189f0f"
+  "gitHead": "8e138f7f13a2b8cecdb20450a38eddab661d281c"
 }
