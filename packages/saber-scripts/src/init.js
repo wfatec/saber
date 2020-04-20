@@ -2,8 +2,8 @@ import { join, basename } from 'path';
 import { renameSync } from 'fs';
 import { sync as emptyDir } from 'empty-dir';
 import leftPad from 'left-pad';
-import chalk from 'saber-dev-utils/chalk';
-import inquirer from 'saber-dev-utils/inquirer';
+import * as chalk from 'saber-dev-utils/chalk';
+import * as inquirer from 'saber-dev-utils/inquirer';
 
 function info(type, message) {
   console.log(`${chalk.green.bold(leftPad(type, 12))}  ${message}`);
@@ -108,8 +108,8 @@ function copyDirectory(opts) {
 }
 
 export default function (...args) {
-  console.log('args: ', args);
-  return null
+  console.log('inquirer: ', inquirer);
+  // return null
   inquirer.prompt([
     {
       type: 'confirm',

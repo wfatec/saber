@@ -15,7 +15,7 @@ var _leftPad = require("left-pad");
 
 var _chalk = require("saber-dev-utils/chalk");
 
-var _inquirer = require("saber-dev-utils/inquirer");
+var inquirer = require("saber-dev-utils/inquirer");
 
 function info(type, message) {
   console.log("".concat(_chalk["default"].green.bold((0, _leftPad["default"])(type, 12)), "  ").concat(message));
@@ -116,10 +116,9 @@ function _default() {
     args[_key] = arguments[_key];
   }
 
-  console.log('args: ', args);
-  return null;
+  console.log('inquirer: ', inquirer); // return null
 
-  _inquirer["default"].prompt([{
+  inquirer.prompt([{
     type: 'confirm',
     name: 'insist',
     message: "Do you insist on using dva-cli?",
